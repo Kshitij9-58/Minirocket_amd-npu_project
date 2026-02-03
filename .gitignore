@@ -11,7 +11,7 @@ __pycache__
 .ipynb_checkpoints
 .DS_Store
 **/CMakeFiles
-**.cmake
+**/*.cmake
 include/**/Makefile
 lib/**/Makefile
 
@@ -29,3 +29,21 @@ utils/vitisVariables.config
 runtime_lib/xaiengine/src
 /ironenv
 /.cache
+
+# Compiled host binaries
+minirocket_runner
+*.out
+
+# XRT / AIE artifacts
+*.xclbin
+*.elf
+*.bin
+*.log
+
+# Object files
+*.o
+*.a
+*.so
+
+# NPU generated outputs
+insts_*.txt
